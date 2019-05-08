@@ -1,0 +1,10 @@
+1. delete redundencies manually
+GOOG	Alphabet Inc Class C	Information Technology	Google
+DISCK	Discovery Communications-C	Consumer Discretionary	Discovery
+NWS	News Corp. Class B	Consumer Discretionary	News Corp
+FOX	Twenty-First Century Fox Class B	Consumer Discretionary	21st Century Fox
+UA	Under Armour Class C	Consumer Discretionary	Under Armour
+
+
+2. remove "," before reading csv as it is the delimiter
+3. according to the edited csv to get stock trading data

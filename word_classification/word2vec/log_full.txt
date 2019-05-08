@@ -1,0 +1,934 @@
+2018-10-21 17:00:41.966607: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2018-10-21 17:00:42.642914: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1356] Found device 0 with properties: 
+name: Quadro GP100 major: 6 minor: 0 memoryClockRate(GHz): 1.4425
+pciBusID: 0000:b3:00.0
+totalMemory: 15.86GiB freeMemory: 15.58GiB
+2018-10-21 17:00:42.642939: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1435] Adding visible gpu devices: 0
+2018-10-21 17:00:42.854182: I tensorflow/core/common_runtime/gpu/gpu_device.cc:923] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-10-21 17:00:42.854216: I tensorflow/core/common_runtime/gpu/gpu_device.cc:929]      0 
+2018-10-21 17:00:42.854222: I tensorflow/core/common_runtime/gpu/gpu_device.cc:942] 0:   N 
+2018-10-21 17:00:42.854443: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1053] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 15101 MB memory) -> physical GPU (device: 0, name: Quadro GP100, pci bus id: 0000:b3:00.0, compute capability: 6.0)
+Train word2vec on full domain words.
+('UNK', -1)
+Words count: 56622822
+Unique words: 514955
+Vocabulary size: 50113
+Most common words: [('UNK', 2288866), ('1', 227009), ('new', 215825), ('2', 193202), ('first', 182759), ('company', 181076), ('one', 167912), ('3', 146396), ('city', 144219), ('used', 130462)]
+Step 1, Average Loss= 550.7712
+Evaluation...
+"at&t" nearest neighbors: masts, sexually, disgusted, srilankan, 539, infraction, holmdel, offenses,
+"verizon" nearest neighbors: subdomains, 029, nigerian, ego, allow, adviser, pradesh, bead,
+"qualcomm" nearest neighbors: sankt, foresee, neuraminidase, matti, invoke, adsl, amar, rectifiers,
+"paypal" nearest neighbors: resulted, haram, jacoby, relief, opic, kassel, cafeteria, captives,
+"oracle" nearest neighbors: xls, rana, evasion, keybank, history, assembler, burgeoning, geographers,
+"ibm" nearest neighbors: conceive, fictitious, daffy, preserved, yielded, irina, lpc, masa,
+"ebay" nearest neighbors: appreciated, figure, zuccotti, streetcar, noah, bornstein, wedding, welding,
+"twitter" nearest neighbors: mcdonnell, antiretroviral, carbonic, nature, sufficiently, revaluation, 563, princely,
+"cisco" nearest neighbors: campaigners, gillespie, lease, collateral, renren, serving, hangar, 1668,
+"adobe" nearest neighbors: kenya, nitrates, pantry, digital, marquette, methane, puss, monza,
+"apple" nearest neighbors: mediation, praga, subspecialties, tout, wayback, crashing, gastronomy, inverted,
+"microsoft" nearest neighbors: hymns, 1797, affluence, momentarily, 99, figured, reading, 1,
+"amazon" nearest neighbors: steeping, internment, containment, concern, moyne, neutrality, broderick, derives,
+"google" nearest neighbors: dte_energy, prehistoric, warhol, diuretics, turbochargers, arrived, ecs, haysbert,
+"facebook" nearest neighbors: vicky, crystallinity, villainous, 720p, checkpoints, westport, hoskins, lnb,
+Step 10000, Average Loss= 315.4716
+Step 20000, Average Loss= 203.1357
+Step 30000, Average Loss= 147.7072
+Step 40000, Average Loss= 118.1156
+Step 50000, Average Loss= 95.2435
+Step 60000, Average Loss= 79.9331
+Step 70000, Average Loss= 70.0039
+Step 80000, Average Loss= 59.9823
+Step 90000, Average Loss= 53.4539
+Step 100000, Average Loss= 49.6836
+Step 110000, Average Loss= 44.1028
+Step 120000, Average Loss= 43.0293
+Step 130000, Average Loss= 39.6995
+Step 140000, Average Loss= 36.9418
+Step 150000, Average Loss= 33.6701
+Step 160000, Average Loss= 33.8320
+Step 170000, Average Loss= 31.6163
+Step 180000, Average Loss= 30.3080
+Step 190000, Average Loss= 28.3591
+Step 200000, Average Loss= 28.9883
+Evaluation...
+"at&t" nearest neighbors: network, system, known, using, also, use, many, made,
+"verizon" nearest neighbors: allow, initial, class, five, record, season, rate, support,
+"qualcomm" nearest neighbors: category, senior, named, knowledge, minor, 88, pitt, housing,
+"paypal" nearest neighbors: resulted, relief, date, leading, labor, university, colonial, receive,
+"oracle" nearest neighbors: credit, whose, saint, brand, last, de, china, modern,
+"ibm" nearest neighbors: team, last, games, record, four, government, large, include,
+"ebay" nearest neighbors: figure, zero, response, at&t, automated, useful, money, ran,
+"twitter" nearest neighbors: adobe, provided, control, nature, said, power, paper, band,
+"cisco" nearest neighbors: last, could, released, data, built, canada, however, population,
+"adobe" nearest neighbors: government, known, well, however, called, include, name, used,
+"apple" nearest neighbors: known, called, international, include, well, time, using, based,
+"microsoft" nearest neighbors: president, system, using, due, systems, made, however, design,
+"amazon" nearest neighbors: &, called, also, team, well, part, series, known,
+"google" nearest neighbors: early, september, since, international, long, system, following, development,
+"facebook" nearest neighbors: university, season, early, june, however, july, class, government,
+Step 210000, Average Loss= 27.3578
+Step 220000, Average Loss= 26.4082
+Step 230000, Average Loss= 24.7936
+Step 240000, Average Loss= 24.2516
+Step 250000, Average Loss= 22.9714
+Step 260000, Average Loss= 23.3272
+Step 270000, Average Loss= 21.9643
+Step 280000, Average Loss= 19.4389
+Step 290000, Average Loss= 20.8665
+Step 300000, Average Loss= 19.2806
+Step 310000, Average Loss= 20.6003
+Step 320000, Average Loss= 20.3665
+Step 330000, Average Loss= 18.8022
+Step 340000, Average Loss= 18.7766
+Step 350000, Average Loss= 18.8265
+Step 360000, Average Loss= 19.3672
+Step 370000, Average Loss= 18.0847
+Step 380000, Average Loss= 16.9428
+Step 390000, Average Loss= 17.7802
+Step 400000, Average Loss= 16.6309
+Evaluation...
+"at&t" nearest neighbors: named, called, network, program, would, still, home, set,
+"verizon" nearest neighbors: allow, team, season, record, first, released, known, called,
+"qualcomm" nearest neighbors: category, senior, engines, 88, amazon, knowledge, minor, housing,
+"paypal" nearest neighbors: resulted, case, co, leading, rights, gas, date, addition,
+"oracle" nearest neighbors: last, credit, brand, de, saint, common, modern, called,
+"ibm" nearest neighbors: addition, known, games, products, developed, although, city, like,
+"ebay" nearest neighbors: figure, also, at&t, become, military, led, management, known,
+"twitter" nearest neighbors: also, said, adobe, &, see, known, well, found,
+"cisco" nearest neighbors: last, process, may, free, also, along, used, however,
+"adobe" nearest neighbors: called, also, known, include, included, used, found, like,
+"apple" nearest neighbors: available, time, announced, made, day, two, since, model,
+"microsoft" nearest neighbors: federal, system, school, like, large, president, used, south,
+"amazon" nearest neighbors: &, original, made, also, like, line, said, however,
+"google" nearest neighbors: long, around, production, 2006, 2009, support, 2017, made,
+"facebook" nearest neighbors: version, former, way, would, said, war, include, process,
+Step 410000, Average Loss= 17.5370
+Step 420000, Average Loss= 17.4359
+Step 430000, Average Loss= 16.4324
+Step 440000, Average Loss= 16.3286
+Step 450000, Average Loss= 15.6784
+Step 460000, Average Loss= 15.4921
+Step 470000, Average Loss= 14.9222
+Step 480000, Average Loss= 15.1713
+Step 490000, Average Loss= 14.9246
+Step 500000, Average Loss= 14.6382
+Step 510000, Average Loss= 13.9936
+Step 520000, Average Loss= 13.9247
+Step 530000, Average Loss= 13.9216
+Step 540000, Average Loss= 13.7046
+Step 550000, Average Loss= 12.3443
+Step 560000, Average Loss= 13.3203
+Step 570000, Average Loss= 13.2467
+Step 580000, Average Loss= 13.3710
+Step 590000, Average Loss= 13.4953
+Step 600000, Average Loss= 13.0356
+Evaluation...
+"at&t" nearest neighbors: show, become, home, found, market, site, based, another,
+"verizon" nearest neighbors: allow, record, released, founded, season, became, named, sold,
+"qualcomm" nearest neighbors: engines, land, category, also, multiple, named, region, used,
+"paypal" nearest neighbors: resulted, political, leading, rights, control, case, modern, &,
+"oracle" nearest neighbors: systems, features, de, software, acquired, users, used, models,
+"ibm" nearest neighbors: products, addition, due, main, back, like, four, include,
+"ebay" nearest neighbors: also, site, de, would, become, found, side, figure,
+"twitter" nearest neighbors: provided, john, found, gas, see, black, made, called,
+"cisco" nearest neighbors: white, like, also, said, long, one, term, around,
+"adobe" nearest neighbors: also, used, called, including, use, known, often, government,
+"apple" nearest neighbors: two, sold, since, four, three, including, end, would,
+"microsoft" nearest neighbors: corporation, system, order, using, federal, market, support, data,
+"amazon" nearest neighbors: black, later, water, small, also, game, two, make,
+"google" nearest neighbors: example, number, technology, may, third, original, around, day,
+"facebook" nearest neighbors: users, named, would, set, later, introduced, process, like,
+Step 610000, Average Loss= 12.9168
+Step 620000, Average Loss= 13.1674
+Step 630000, Average Loss= 12.5430
+Step 640000, Average Loss= 12.7554
+Step 650000, Average Loss= 12.2280
+Step 660000, Average Loss= 12.1674
+Step 670000, Average Loss= 12.2265
+Step 680000, Average Loss= 11.1724
+Step 690000, Average Loss= 12.1003
+Step 700000, Average Loss= 12.1292
+Step 710000, Average Loss= 11.6362
+Step 720000, Average Loss= 9.9360
+Step 730000, Average Loss= 10.9141
+Step 740000, Average Loss= 11.4698
+Step 750000, Average Loss= 11.3295
+Step 760000, Average Loss= 10.6987
+Step 770000, Average Loss= 10.8717
+Step 780000, Average Loss= 11.3126
+Step 790000, Average Loss= 11.3774
+Step 800000, Average Loss= 10.8532
+Evaluation...
+"at&t" nearest neighbors: market, home, largest, site, service, set, began, order,
+"verizon" nearest neighbors: allow, record, industry, later, ii, team, named, led,
+"qualcomm" nearest neighbors: region, engines, called, car, land, small, sometimes, used,
+"paypal" nearest neighbors: resulted, leading, political, human, control, instead, modern, co,
+"oracle" nearest neighbors: models, product, users, software, control, private, modern, operating,
+"ibm" nearest neighbors: special, set, based, required, increase, products, within, computer,
+"ebay" nearest neighbors: white, also, de, could, side, near, including, used,
+"twitter" nearest neighbors: provided, half, office, late, way, place, much, left,
+"cisco" nearest neighbors: white, replaced, water, required, around, film, change, act,
+"adobe" nearest neighbors: include, called, group, common, known, home, run, former,
+"apple" nearest neighbors: run, end, including, support, time, within, led, three,
+"microsoft" nearest neighbors: mobile, operating, network, federal, standard, run, system, others,
+"amazon" nearest neighbors: black, family, american, across, full, sold, third, top,
+"google" nearest neighbors: users, media, sales, would, much, third, support, addition,
+"facebook" nearest neighbors: users, media, apple, several, news, following, times, major,
+Step 810000, Average Loss= 10.4505
+Step 820000, Average Loss= 10.2577
+Step 830000, Average Loss= 10.0410
+Step 840000, Average Loss= 10.5908
+Step 850000, Average Loss= 10.4131
+Step 860000, Average Loss= 10.0578
+Step 870000, Average Loss= 10.3868
+Step 880000, Average Loss= 10.4751
+Step 890000, Average Loss= 10.6652
+Step 900000, Average Loss= 10.0250
+Step 910000, Average Loss= 9.9322
+Step 920000, Average Loss= 9.7472
+Step 930000, Average Loss= 9.5325
+Step 940000, Average Loss= 10.0931
+Step 950000, Average Loss= 9.7394
+Step 960000, Average Loss= 9.4807
+Step 970000, Average Loss= 9.4263
+Step 980000, Average Loss= 9.5295
+Step 990000, Average Loss= 9.1373
+Step 1000000, Average Loss= 9.6216
+Evaluation...
+"at&t" nearest neighbors: market, corporation, operations, television, largest, services, home, service,
+"verizon" nearest neighbors: allow, named, left, according, ii, became, operations, team,
+"qualcomm" nearest neighbors: sometimes, main, engines, water, large, region, land, production,
+"paypal" nearest neighbors: leading, resulted, human, type, financial, period, date, left,
+"oracle" nearest neighbors: software, data, models, apple, users, code, limited, operating,
+"ibm" nearest neighbors: produced, features, thus, much, computer, required, available, provide,
+"ebay" nearest neighbors: 1998, would, play, near, team, led, inc, region,
+"twitter" nearest neighbors: half, paper, late, long, current, office, local, place,
+"cisco" nearest neighbors: land, two, even, replaced, sales, three, price, image,
+"adobe" nearest neighbors: support, technology, changes, public, includes, addition, police, developed,
+"apple" nearest neighbors: would, support, run, introduced, available, order, original, time,
+"microsoft" nearest neighbors: mobile, operating, via, code, system, systems, technology, case,
+"amazon" nearest neighbors: second, run, third, number, across, black, original, provided,
+"google" nearest neighbors: users, must, features, order, either, media, support, would,
+"facebook" nearest neighbors: users, video, news, media, stated, online, published, typically,
+Step 1010000, Average Loss= 9.3906
+Step 1020000, Average Loss= 9.2287
+Step 1030000, Average Loss= 8.8010
+Step 1040000, Average Loss= 9.1115
+Step 1050000, Average Loss= 9.3209
+Step 1060000, Average Loss= 9.0690
+Step 1070000, Average Loss= 9.0225
+Step 1080000, Average Loss= 8.9627
+Step 1090000, Average Loss= 9.4012
+Step 1100000, Average Loss= 8.9248
+Step 1110000, Average Loss= 8.8324
+Step 1120000, Average Loss= 8.9839
+Step 1130000, Average Loss= 8.7108
+Step 1140000, Average Loss= 8.7322
+Step 1150000, Average Loss= 8.9878
+Step 1160000, Average Loss= 8.7785
+Step 1170000, Average Loss= 7.9124
+Step 1180000, Average Loss= 8.2202
+Step 1190000, Average Loss= 8.6542
+Step 1200000, Average Loss= 8.6910
+Evaluation...
+"at&t" nearest neighbors: home, market, operations, network, headquarters, service, began, british,
+"verizon" nearest neighbors: held, completed, allow, program, named, began, according, based,
+"qualcomm" nearest neighbors: car, boeing, cost, sometimes, type, ford, engines, form,
+"paypal" nearest neighbors: resulted, leading, date, little, period, individual, result, ground,
+"oracle" nearest neighbors: version, model, would, added, base, release, third, based,
+"ibm" nearest neighbors: developed, features, based, types, computer, larger, much, food,
+"ebay" nearest neighbors: 1998, play, lead, non, group, established, would, air,
+"twitter" nearest neighbors: paper, late, half, leading, top, place, india, never,
+"cisco" nearest neighbors: image, position, online, land, increase, price, real, larger,
+"adobe" nearest neighbors: police, includes, network, technology, limited, future, one, required,
+"apple" nearest neighbors: would, time, introduced, run, made, later, end, addition,
+"microsoft" nearest neighbors: operating, mobile, via, user, provide, run, case, system,
+"amazon" nearest neighbors: run, black, family, report, final, number, across, provided,
+"google" nearest neighbors: users, support, would, may, apple, content, provided, either,
+"facebook" nearest neighbors: users, video, media, news, published, online, program, apple,
+Step 1210000, Average Loss= 9.0367
+Step 1220000, Average Loss= 8.0822
+Step 1230000, Average Loss= 8.8364
+Step 1240000, Average Loss= 8.8976
+Step 1250000, Average Loss= 8.5144
+Step 1260000, Average Loss= 8.6599
+Step 1270000, Average Loss= 8.3802
+Step 1280000, Average Loss= 8.4738
+Step 1290000, Average Loss= 8.5248
+Step 1300000, Average Loss= 8.7661
+Step 1310000, Average Loss= 8.4868
+Step 1320000, Average Loss= 8.5896
+Step 1330000, Average Loss= 8.3501
+Step 1340000, Average Loss= 8.2037
+Step 1350000, Average Loss= 8.2809
+Step 1360000, Average Loss= 8.3208
+Step 1370000, Average Loss= 8.2055
+Step 1380000, Average Loss= 8.3700
+Step 1390000, Average Loss= 8.1207
+Step 1400000, Average Loss= 8.1480
+Evaluation...
+"at&t" nearest neighbors: home, part, network, service, become, headquarters, market, operations,
+"verizon" nearest neighbors: named, investment, became, deal, completed, association, associated, position,
+"qualcomm" nearest neighbors: boeing, economy, small, large, sometimes, cost, car, design,
+"paypal" nearest neighbors: resulted, date, leading, ground, little, traditional, described, class,
+"oracle" nearest neighbors: version, models, users, previous, third, added, user, software,
+"ibm" nearest neighbors: computer, features, longer, make, available, apple, much, set,
+"ebay" nearest neighbors: red, lead, 1998, operations, would, non, main, play,
+"twitter" nearest neighbors: band, india, leading, paper, never, found, top, short,
+"cisco" nearest neighbors: image, increase, position, caused, users, individual, growth, g,
+"adobe" nearest neighbors: police, includes, required, run, members, future, via, plan,
+"apple" nearest neighbors: introduced, included, available, release, added, made, next, end,
+"microsoft" nearest neighbors: operating, system, via, support, mobile, apple, run, network,
+"amazon" nearest neighbors: second, black, run, least, third, two, four, final,
+"google" nearest neighbors: users, online, would, features, media, provided, open, time,
+"facebook" nearest neighbors: users, google, online, video, news, features, stated, apple,
+Step 1410000, Average Loss= 8.1900
+Step 1420000, Average Loss= 7.8665
+Step 1430000, Average Loss= 7.9837
+Step 1440000, Average Loss= 7.8770
+Step 1450000, Average Loss= 7.9283
+Step 1460000, Average Loss= 7.9827
+Step 1470000, Average Loss= 8.1624
+Step 1480000, Average Loss= 8.1583
+Step 1490000, Average Loss= 8.0343
+Step 1500000, Average Loss= 8.1537
+Step 1510000, Average Loss= 8.0388
+Step 1520000, Average Loss= 8.0044
+Step 1530000, Average Loss= 8.1234
+Step 1540000, Average Loss= 7.8999
+Step 1550000, Average Loss= 7.8564
+Step 1560000, Average Loss= 7.7122
+Step 1570000, Average Loss= 7.6024
+Step 1580000, Average Loss= 8.0085
+Step 1590000, Average Loss= 7.9350
+Step 1600000, Average Loss= 7.6193
+Evaluation...
+"at&t" nearest neighbors: market, service, started, field, initially, continued, following, allowed,
+"verizon" nearest neighbors: position, deal, com, investment, head, operations, manufacturing, sold,
+"qualcomm" nearest neighbors: boeing, car, industrial, plant, economy, loss, level, racing,
+"paypal" nearest neighbors: resulted, effect, date, material, leading, described, culture, control,
+"oracle" nearest neighbors: limited, closed, previous, operating, feature, apple, platform, added,
+"ibm" nearest neighbors: computer, available, apple, longer, features, application, multiple, much,
+"ebay" nearest neighbors: lead, head, purchased, growth, main, made, initially, found,
+"twitter" nearest neighbors: band, india, paper, leading, recent, never, terms, remained,
+"cisco" nearest neighbors: image, better, increase, online, section, allowing, sales, growth,
+"adobe" nearest neighbors: credit, future, network, agreement, limited, police, offered, members,
+"apple" nearest neighbors: introduced, release, would, original, included, available, models, full,
+"microsoft" nearest neighbors: operating, apple, mobile, users, platform, application, available, via,
+"amazon" nearest neighbors: run, third, prior, full, black, allowed, across, almost,
+"google" nearest neighbors: users, would, online, media, provided, features, content, program,
+"facebook" nearest neighbors: google, users, news, media, online, video, go, play,
+Step 1610000, Average Loss= 6.3056
+Step 1620000, Average Loss= 7.6419
+Step 1630000, Average Loss= 7.8418
+Step 1640000, Average Loss= 7.3520
+Step 1650000, Average Loss= 7.1924
+Step 1660000, Average Loss= 7.8588
+Step 1670000, Average Loss= 7.8200
+Step 1680000, Average Loss= 7.8052
+Step 1690000, Average Loss= 7.6653
+Step 1700000, Average Loss= 7.3802
+Step 1710000, Average Loss= 7.1903
+Step 1720000, Average Loss= 7.6551
+Step 1730000, Average Loss= 7.4010
+Step 1740000, Average Loss= 7.2707
+Step 1750000, Average Loss= 7.4194
+Step 1760000, Average Loss= 7.5481
+Step 1770000, Average Loss= 7.6753
+Step 1780000, Average Loss= 7.6140
+Step 1790000, Average Loss= 7.4704
+Step 1800000, Average Loss= 7.2591
+Evaluation...
+"at&t" nearest neighbors: market, eventually, communications, service, operations, initially, started, companies,
+"verizon" nearest neighbors: position, investment, operations, deal, investors, rights, association, purchased,
+"qualcomm" nearest neighbors: economy, industrial, car, boeing, loss, price, manufacturing, production,
+"paypal" nearest neighbors: resulted, effect, culture, date, described, material, control, referred,
+"oracle" nearest neighbors: limited, previous, operating, windows, product, closed, platform, code,
+"ibm" nearest neighbors: computer, longer, based, features, available, support, set, products,
+"ebay" nearest neighbors: initially, lead, growth, red, purchased, pre, major, smaller,
+"twitter" nearest neighbors: band, recent, terms, paper, never, economic, leading, changes,
+"cisco" nearest neighbors: image, sales, share, allowing, increase, value, real, price,
+"adobe" nearest neighbors: future, changes, network, offered, developed, limited, previous, structure,
+"apple" nearest neighbors: introduced, release, included, original, support, feature, available, offered,
+"microsoft" nearest neighbors: platform, apple, support, operating, via, release, available, application,
+"amazon" nearest neighbors: official, third, run, prior, top, previously, offered, one,
+"google" nearest neighbors: website, users, media, content, platform, online, open, apple,
+"facebook" nearest neighbors: google, users, media, online, website, video, news, go,
+Step 1810000, Average Loss= 7.4757
+Step 1820000, Average Loss= 7.5193
+Step 1830000, Average Loss= 7.4020
+Step 1840000, Average Loss= 7.5084
+Step 1850000, Average Loss= 7.3501
+Step 1860000, Average Loss= 7.2756
+Step 1870000, Average Loss= 7.3667
+Step 1880000, Average Loss= 7.2455
+Step 1890000, Average Loss= 7.4168
+Step 1900000, Average Loss= 7.2594
+Step 1910000, Average Loss= 7.2603
+Step 1920000, Average Loss= 6.8862
+Step 1930000, Average Loss= 7.3580
+Step 1940000, Average Loss= 7.1957
+Step 1950000, Average Loss= 7.1215
+Step 1960000, Average Loss= 7.1424
+Step 1970000, Average Loss= 7.3741
+Step 1980000, Average Loss= 7.2446
+Step 1990000, Average Loss= 7.2122
+Step 2000000, Average Loss= 7.0602
+Evaluation...
+"at&t" nearest neighbors: communications, service, inc, eventually, company, market, started, initially,
+"verizon" nearest neighbors: investors, position, investment, deal, companies, inc, program, purchased,
+"qualcomm" nearest neighbors: economy, parts, production, boeing, cars, water, industrial, price,
+"paypal" nearest neighbors: resulted, structure, effect, material, date, described, culture, called,
+"oracle" nearest neighbors: windows, limited, platform, previous, software, share, offered, operating,
+"ibm" nearest neighbors: computer, apple, features, support, longer, based, design, application,
+"ebay" nearest neighbors: initially, pre, smaller, growth, purchased, head, red, lead,
+"twitter" nearest neighbors: band, turn, stated, remained, economic, early, index, global,
+"cisco" nearest neighbors: allowing, distribution, account, image, share, sales, price, better,
+"adobe" nearest neighbors: offered, standard, developed, via, program, introduced, limited, use,
+"apple" nearest neighbors: original, introduced, release, feature, available, would, included, offered,
+"microsoft" nearest neighbors: platform, apple, version, windows, operating, google, support, mobile,
+"amazon" nearest neighbors: run, previously, uk, website, offered, separate, go, prior,
+"google" nearest neighbors: website, users, online, media, platform, apple, would, content,
+"facebook" nearest neighbors: google, users, media, online, website, video, go, news,
+Step 2010000, Average Loss= 7.1546
+Step 2020000, Average Loss= 7.0897
+Step 2030000, Average Loss= 7.2245
+Step 2040000, Average Loss= 7.1006
+Step 2050000, Average Loss= 6.4629
+Step 2060000, Average Loss= 6.9549
+Step 2070000, Average Loss= 6.8582
+Step 2080000, Average Loss= 7.1099
+Step 2090000, Average Loss= 7.3060
+Step 2100000, Average Loss= 6.9241
+Step 2110000, Average Loss= 7.0473
+Step 2120000, Average Loss= 7.1182
+Step 2130000, Average Loss= 7.3217
+Step 2140000, Average Loss= 7.1489
+Step 2150000, Average Loss= 6.8653
+Step 2160000, Average Loss= 7.2100
+Step 2170000, Average Loss= 6.9312
+Step 2180000, Average Loss= 7.2264
+Step 2190000, Average Loss= 7.2290
+Step 2200000, Average Loss= 6.9999
+Evaluation...
+"at&t" nearest neighbors: communications, service, initially, plans, company, corporation, market, purchase,
+"verizon" nearest neighbors: investors, at&t, deal, investment, issued, position, contract, paid,
+"qualcomm" nearest neighbors: economy, large, small, larger, lower, placed, cars, car,
+"paypal" nearest neighbors: resulted, effect, evidence, material, described, structure, given, forms,
+"oracle" nearest neighbors: limited, operating, google, data, added, previous, windows, offered,
+"ibm" nearest neighbors: computer, support, apple, original, features, feature, set, based,
+"ebay" nearest neighbors: worldwide, pre, growth, lead, chinese, claims, head, operations,
+"twitter" nearest neighbors: band, economic, index, nature, recent, majority, turn, close,
+"cisco" nearest neighbors: account, allowing, purchase, price, distribution, increase, costs, image,
+"adobe" nearest neighbors: required, limited, initially, available, feature, instead, technologies, offered,
+"apple" nearest neighbors: release, introduced, support, available, feature, original, released, initially,
+"microsoft" nearest neighbors: platform, support, apple, google, release, operating, available, application,
+"amazon" nearest neighbors: online, website, run, event, official, previously, time, separate,
+"google" nearest neighbors: website, users, online, platform, media, feature, support, features,
+"facebook" nearest neighbors: google, users, online, website, media, video, apple, issue,
+Step 2210000, Average Loss= 7.0939
+Step 2220000, Average Loss= 7.0593
+Step 2230000, Average Loss= 6.9122
+Step 2240000, Average Loss= 6.9137
+Step 2250000, Average Loss= 6.9402
+Step 2260000, Average Loss= 7.0033
+Step 2270000, Average Loss= 6.9899
+Step 2280000, Average Loss= 6.8162
+Step 2290000, Average Loss= 6.9127
+Step 2300000, Average Loss= 6.9125
+Step 2310000, Average Loss= 6.8853
+Step 2320000, Average Loss= 6.5584
+Step 2330000, Average Loss= 6.8526
+Step 2340000, Average Loss= 6.8887
+Step 2350000, Average Loss= 6.9206
+Step 2360000, Average Loss= 6.9868
+Step 2370000, Average Loss= 6.9716
+Step 2380000, Average Loss= 6.8763
+Step 2390000, Average Loss= 7.0056
+Step 2400000, Average Loss= 6.8721
+Evaluation...
+"at&t" nearest neighbors: communications, company, plans, owned, changed, purchased, purchase, group,
+"verizon" nearest neighbors: investors, investment, at&t, contract, paid, issued, direct, position,
+"qualcomm" nearest neighbors: economy, large, small, plant, lower, put, cars, larger,
+"paypal" nearest neighbors: resulted, evidence, effect, structure, decided, receive, control, due,
+"oracle" nearest neighbors: limited, platform, offered, product, operating, full, microsoft, added,
+"ibm" nearest neighbors: computer, apple, platform, features, feature, software, original, applications,
+"ebay" nearest neighbors: major, growth, lead, claims, pre, made, worldwide, taken,
+"twitter" nearest neighbors: band, nature, index, recent, go, global, period, entire,
+"cisco" nearest neighbors: account, purchase, allowing, price, change, increase, additional, would,
+"adobe" nearest neighbors: feature, offer, versions, includes, either, limited, structure, technologies,
+"apple" nearest neighbors: release, introduced, feature, original, offered, added, available, based,
+"microsoft" nearest neighbors: platform, apple, google, version, windows, support, available, release,
+"amazon" nearest neighbors: website, run, online, issue, official, prior, event, would,
+"google" nearest neighbors: website, online, users, platform, media, apple, feature, personal,
+"facebook" nearest neighbors: google, users, website, online, media, video, page, issue,
+Step 2410000, Average Loss= 7.0175
+Step 2420000, Average Loss= 6.8228
+Step 2430000, Average Loss= 6.8216
+Step 2440000, Average Loss= 6.8413
+Step 2450000, Average Loss= 6.5244
+Step 2460000, Average Loss= 6.8968
+Step 2470000, Average Loss= 6.9145
+Step 2480000, Average Loss= 6.7829
+Step 2490000, Average Loss= 5.4779
+Step 2500000, Average Loss= 6.6693
+Step 2510000, Average Loss= 6.8532
+Step 2520000, Average Loss= 6.7934
+Step 2530000, Average Loss= 6.2527
+Step 2540000, Average Loss= 6.5589
+Step 2550000, Average Loss= 6.9131
+Step 2560000, Average Loss= 6.8998
+Step 2570000, Average Loss= 6.7610
+Step 2580000, Average Loss= 6.5573
+Step 2590000, Average Loss= 6.5228
+Step 2600000, Average Loss= 6.5422
+Evaluation...
+"at&t" nearest neighbors: communications, service, plans, group, operations, began, purchased, initially,
+"verizon" nearest neighbors: investors, communications, at&t, contract, awarded, operations, investment, issued,
+"qualcomm" nearest neighbors: economy, small, industrial, plant, parts, smaller, large, manufacturing,
+"paypal" nearest neighbors: resulted, control, material, effect, gave, evidence, structure, forms,
+"oracle" nearest neighbors: limited, platform, product, microsoft, operating, mode, shares, website,
+"ibm" nearest neighbors: computer, apple, feature, platform, features, software, version, original,
+"ebay" nearest neighbors: figure, trading, growth, lead, worldwide, claims, pre, initially,
+"twitter" nearest neighbors: index, following, changes, band, terms, recent, nature, website,
+"cisco" nearest neighbors: account, price, allowing, purchase, amount, providing, internet, increase,
+"adobe" nearest neighbors: available, version, versions, offer, either, limited, via, offered,
+"apple" nearest neighbors: release, version, introduced, feature, microsoft, original, offered, platform,
+"microsoft" nearest neighbors: apple, platform, version, windows, google, mobile, software, release,
+"amazon" nearest neighbors: website, run, issue, prior, official, advertising, free, offered,
+"google" nearest neighbors: website, users, platform, media, apple, online, content, software,
+"facebook" nearest neighbors: google, users, website, media, online, video, article, issue,
+Step 2610000, Average Loss= 6.6591
+Step 2620000, Average Loss= 6.5000
+Step 2630000, Average Loss= 6.5197
+Step 2640000, Average Loss= 6.6176
+Step 2650000, Average Loss= 6.7220
+Step 2660000, Average Loss= 6.8292
+Step 2670000, Average Loss= 6.6687
+Step 2680000, Average Loss= 6.6426
+Step 2690000, Average Loss= 6.6538
+Step 2700000, Average Loss= 6.5801
+Step 2710000, Average Loss= 6.7845
+Step 2720000, Average Loss= 6.6971
+Step 2730000, Average Loss= 6.6094
+Step 2740000, Average Loss= 6.5818
+Step 2750000, Average Loss= 6.6499
+Step 2760000, Average Loss= 6.4439
+Step 2770000, Average Loss= 6.7112
+Step 2780000, Average Loss= 6.6084
+Step 2790000, Average Loss= 6.5575
+Step 2800000, Average Loss= 6.2779
+Evaluation...
+"at&t" nearest neighbors: communications, company, corporation, inc, plans, began, acquisition, purchased,
+"verizon" nearest neighbors: investors, at&t, communications, awarded, issued, deal, investment, paid,
+"qualcomm" nearest neighbors: economy, manufacturing, production, large, placed, parts, cars, put,
+"paypal" nearest neighbors: resulted, structure, change, decided, receive, self, distance, material,
+"oracle" nearest neighbors: platform, operating, limited, contract, microsoft, windows, software, offered,
+"ibm" nearest neighbors: computer, apple, software, features, support, developed, feature, platform,
+"ebay" nearest neighbors: figure, trading, growth, claims, major, decided, worldwide, lead,
+"twitter" nearest neighbors: index, continue, website, customer, nature, necessary, take, band,
+"cisco" nearest neighbors: account, price, allowing, prices, sales, amount, value, purchase,
+"adobe" nearest neighbors: versions, available, support, version, initially, introduced, features, feature,
+"apple" nearest neighbors: release, introduced, microsoft, feature, available, launch, original, released,
+"microsoft" nearest neighbors: platform, apple, google, windows, software, version, release, versions,
+"amazon" nearest neighbors: website, online, advertising, offered, available, sale, issue, would,
+"google" nearest neighbors: website, users, online, platform, software, microsoft, apple, media,
+"facebook" nearest neighbors: google, users, website, media, online, video, issue, published,
+Step 2810000, Average Loss= 6.5078
+Step 2820000, Average Loss= 6.6453
+Step 2830000, Average Loss= 6.4738
+Step 2840000, Average Loss= 6.5066
+Step 2850000, Average Loss= 6.5140
+Step 2860000, Average Loss= 6.7026
+Step 2870000, Average Loss= 6.5046
+Step 2880000, Average Loss= 6.4555
+Step 2890000, Average Loss= 6.5399
+Step 2900000, Average Loss= 6.4344
+Step 2910000, Average Loss= 6.4603
+Step 2920000, Average Loss= 6.6380
+Step 2930000, Average Loss= 6.3252
+Step 2940000, Average Loss= 6.0512
+Step 2950000, Average Loss= 6.1387
+Step 2960000, Average Loss= 6.4725
+Step 2970000, Average Loss= 6.5248
+Step 2980000, Average Loss= 6.6384
+Step 2990000, Average Loss= 6.2490
+Step 3000000, Average Loss= 6.5700
+Evaluation...
+"at&t" nearest neighbors: communications, company, corporation, acquisition, plans, inc, purchased, merged,
+"verizon" nearest neighbors: investors, at&t, communications, issued, awarded, receive, deal, investment,
+"qualcomm" nearest neighbors: economy, large, manufacturing, cars, smaller, parts, value, car,
+"paypal" nearest neighbors: resulted, structure, decided, distance, receive, concerns, change, self,
+"oracle" nearest neighbors: operating, platform, direct, offered, limited, microsoft, contract, google,
+"ibm" nearest neighbors: apple, platform, feature, support, computer, developed, based, microsoft,
+"ebay" nearest neighbors: figure, operations, trading, worldwide, decided, claims, pre, major,
+"twitter" nearest neighbors: index, website, go, continue, take, nature, members, box,
+"cisco" nearest neighbors: account, price, purchase, prices, controlled, provided, reducing, amount,
+"adobe" nearest neighbors: versions, available, introduced, version, application, initially, supported, features,
+"apple" nearest neighbors: release, feature, microsoft, introduced, google, platform, initially, support,
+"microsoft" nearest neighbors: platform, apple, google, windows, support, mobile, release, versions,
+"amazon" nearest neighbors: website, online, would, sale, advertising, issue, allowed, run,
+"google" nearest neighbors: website, users, platform, online, apple, microsoft, feature, release,
+"facebook" nearest neighbors: users, google, website, media, online, issue, apple, content,
+Step 3010000, Average Loss= 6.6394
+Step 3020000, Average Loss= 6.5059
+Step 3030000, Average Loss= 6.5022
+Step 3040000, Average Loss= 6.4116
+Step 3050000, Average Loss= 6.4238
+Step 3060000, Average Loss= 6.4607
+Step 3070000, Average Loss= 6.6613
+Step 3080000, Average Loss= 6.4679
+Step 3090000, Average Loss= 6.5908
+Step 3100000, Average Loss= 6.4560
+Step 3110000, Average Loss= 6.3041
+Step 3120000, Average Loss= 6.3481
+Step 3130000, Average Loss= 6.4765
+Step 3140000, Average Loss= 6.4122
+Step 3150000, Average Loss= 6.4712
+Step 3160000, Average Loss= 6.3456
+Step 3170000, Average Loss= 6.3963
+Step 3180000, Average Loss= 6.4326
+Step 3190000, Average Loss= 6.2417
+Step 3200000, Average Loss= 6.2997
+Evaluation...
+"at&t" nearest neighbors: communications, company, corporation, acquisition, inc, merged, sell, plans,
+"verizon" nearest neighbors: investors, at&t, communications, issued, receive, deal, investment, paid,
+"qualcomm" nearest neighbors: economy, large, smaller, car, value, parts, supply, cars,
+"paypal" nearest neighbors: resulted, decided, remains, concerns, structure, receive, effect, self,
+"oracle" nearest neighbors: operating, platform, microsoft, limited, contract, ownership, previous, offered,
+"ibm" nearest neighbors: computer, platform, apple, support, software, feature, features, based,
+"ebay" nearest neighbors: figure, trading, worldwide, decided, pre, claims, operations, growth,
+"twitter" nearest neighbors: facebook, index, website, continue, go, always, future, clear,
+"cisco" nearest neighbors: account, prices, controlled, reducing, purchase, allowing, price, cannot,
+"adobe" nearest neighbors: versions, introduced, available, feature, platform, features, offered, instead,
+"apple" nearest neighbors: microsoft, release, introduced, feature, version, platform, released, available,
+"microsoft" nearest neighbors: platform, apple, google, windows, ibm, version, mobile, software,
+"amazon" nearest neighbors: website, online, com, offered, available, would, sale, google,
+"google" nearest neighbors: website, users, online, platform, microsoft, apple, software, content,
+"facebook" nearest neighbors: google, users, website, online, media, issue, would, go,
+Step 3210000, Average Loss= 6.2826
+Step 3220000, Average Loss= 6.3219
+Step 3230000, Average Loss= 6.3083
+Step 3240000, Average Loss= 6.4514
+Step 3250000, Average Loss= 6.4866
+Step 3260000, Average Loss= 6.4026
+Step 3270000, Average Loss= 6.4514
+Step 3280000, Average Loss= 6.3932
+Step 3290000, Average Loss= 6.4212
+Step 3300000, Average Loss= 6.4615
+Step 3310000, Average Loss= 6.3534
+Step 3320000, Average Loss= 6.3390
+Step 3330000, Average Loss= 6.2127
+Step 3340000, Average Loss= 6.2289
+Step 3350000, Average Loss= 6.4328
+Step 3360000, Average Loss= 6.4249
+Step 3370000, Average Loss= 6.2029
+Step 3380000, Average Loss= 5.1287
+Step 3390000, Average Loss= 6.2993
+Step 3400000, Average Loss= 6.3844
+Evaluation...
+"at&t" nearest neighbors: communications, company, inc, acquisition, merger, corporation, merged, owned,
+"verizon" nearest neighbors: at&t, investors, communications, entry, deal, receive, jack, issued,
+"qualcomm" nearest neighbors: economy, large, parts, manufacturing, supply, industry, smaller, small,
+"paypal" nearest neighbors: resulted, remains, decided, concerns, rule, distance, control, self,
+"oracle" nearest neighbors: operating, platform, limited, microsoft, initial, contract, server, ibm,
+"ibm" nearest neighbors: computer, platform, apple, software, features, hardware, microsoft, feature,
+"ebay" nearest neighbors: figure, trading, leaving, ran, claims, jobs, decided, however,
+"twitter" nearest neighbors: facebook, website, clear, continue, failed, media, effort, report,
+"cisco" nearest neighbors: account, prices, reducing, purchase, allowing, cannot, expected, sales,
+"adobe" nearest neighbors: version, versions, available, platform, introduced, format, model, feature,
+"apple" nearest neighbors: release, microsoft, introduced, released, version, feature, platform, ibm,
+"microsoft" nearest neighbors: apple, platform, google, windows, version, ibm, mobile, versions,
+"amazon" nearest neighbors: website, com, google, free, advertising, books, content, media,
+"google" nearest neighbors: website, users, platform, microsoft, web, apple, media, software,
+"facebook" nearest neighbors: google, website, users, media, issue, article, free, content,
+Step 3410000, Average Loss= 5.9320
+Step 3420000, Average Loss= 6.0028
+Step 3430000, Average Loss= 6.4052
+Step 3440000, Average Loss= 6.3957
+Step 3450000, Average Loss= 6.3998
+Step 3460000, Average Loss= 6.2804
+Step 3470000, Average Loss= 6.1446
+Step 3480000, Average Loss= 6.0020
+Step 3490000, Average Loss= 6.3046
+Step 3500000, Average Loss= 6.1527
+Step 3510000, Average Loss= 6.0781
+Step 3520000, Average Loss= 6.1869
+Step 3530000, Average Loss= 6.2126
+Step 3540000, Average Loss= 6.3671
+Step 3550000, Average Loss= 6.3123
+Step 3560000, Average Loss= 6.2733
+Step 3570000, Average Loss= 6.1652
+Step 3580000, Average Loss= 6.2678
+Step 3590000, Average Loss= 6.3351
+Step 3600000, Average Loss= 6.2906
+Evaluation...
+"at&t" nearest neighbors: communications, inc, company, corporation, acquisition, merger, acquired, merged,
+"verizon" nearest neighbors: at&t, investors, entry, communications, deal, jack, issued, agreement,
+"qualcomm" nearest neighbors: economy, large, small, car, manufacturing, parts, smaller, industrial,
+"paypal" nearest neighbors: resulted, rule, control, structure, rules, concerns, remains, self,
+"oracle" nearest neighbors: operating, platform, microsoft, product, limited, server, contract, run,
+"ibm" nearest neighbors: computer, platform, apple, software, microsoft, based, features, product,
+"ebay" nearest neighbors: figure, leaving, trading, jobs, ran, claims, chinese, direct,
+"twitter" nearest neighbors: facebook, website, changes, continue, clear, advertising, account, campaign,
+"cisco" nearest neighbors: account, prices, reducing, purchase, expected, value, buy, price,
+"adobe" nearest neighbors: version, versions, introduced, features, platform, available, model, apple,
+"apple" nearest neighbors: release, microsoft, introduced, ibm, platform, google, released, original,
+"microsoft" nearest neighbors: platform, apple, google, windows, ibm, versions, software, mobile,
+"amazon" nearest neighbors: website, online, google, advertising, content, service, media, free,
+"google" nearest neighbors: website, users, microsoft, platform, content, software, online, apple,
+"facebook" nearest neighbors: google, users, website, media, online, content, account, article,
+Step 3610000, Average Loss= 6.2983
+Step 3620000, Average Loss= 6.2333
+Step 3630000, Average Loss= 6.1818
+Step 3640000, Average Loss= 6.2669
+Step 3650000, Average Loss= 6.1583
+Step 3660000, Average Loss= 6.2985
+Step 3670000, Average Loss= 6.1986
+Step 3680000, Average Loss= 6.2002
+Step 3690000, Average Loss= 5.8964
+Step 3700000, Average Loss= 6.2367
+Step 3710000, Average Loss= 6.1405
+Step 3720000, Average Loss= 6.0757
+Step 3730000, Average Loss= 6.1268
+Step 3740000, Average Loss= 6.3096
+Step 3750000, Average Loss= 6.1827
+Step 3760000, Average Loss= 6.1722
+Step 3770000, Average Loss= 6.0896
+Step 3780000, Average Loss= 6.1512
+Step 3790000, Average Loss= 6.1333
+Step 3800000, Average Loss= 6.2031
+Evaluation...
+"at&t" nearest neighbors: inc, communications, acquisition, corporation, merger, company, acquired, bell,
+"verizon" nearest neighbors: at&t, entry, investors, communications, deal, jack, wireless, receive,
+"qualcomm" nearest neighbors: economy, large, parts, smaller, larger, cars, small, vehicle,
+"paypal" nearest neighbors: resulted, structure, rule, self, concerns, remains, negative, decided,
+"oracle" nearest neighbors: operating, platform, microsoft, discontinued, ibm, ownership, offered, initial,
+"ibm" nearest neighbors: platform, computer, apple, microsoft, software, versions, feature, features,
+"ebay" nearest neighbors: figure, leaving, trading, jobs, decided, major, ran, worldwide,
+"twitter" nearest neighbors: facebook, website, advertising, clear, continue, campaign, license, users,
+"cisco" nearest neighbors: purchase, account, prices, reducing, buy, controlled, distribution, customer,
+"adobe" nearest neighbors: version, versions, apple, platform, introduced, release, format, standard,
+"apple" nearest neighbors: release, microsoft, introduced, ibm, released, feature, google, platform,
+"microsoft" nearest neighbors: platform, google, apple, ibm, windows, software, versions, mobile,
+"amazon" nearest neighbors: website, online, google, com, advertising, free, sale, internet,
+"google" nearest neighbors: website, microsoft, users, online, platform, apple, software, content,
+"facebook" nearest neighbors: google, website, users, online, media, issue, content, advertising,
+Step 3810000, Average Loss= 6.1556
+Step 3820000, Average Loss= 5.5630
+Step 3830000, Average Loss= 6.0018
+Step 3840000, Average Loss= 5.9757
+Step 3850000, Average Loss= 6.1849
+Step 3860000, Average Loss= 6.2780
+Step 3870000, Average Loss= 6.0010
+Step 3880000, Average Loss= 6.1165
+Step 3890000, Average Loss= 6.1747
+Step 3900000, Average Loss= 6.2905
+Step 3910000, Average Loss= 6.2307
+Step 3920000, Average Loss= 5.9962
+Step 3930000, Average Loss= 6.2218
+Step 3940000, Average Loss= 6.0660
+Step 3950000, Average Loss= 6.2373
+Step 3960000, Average Loss= 6.2714
+Step 3970000, Average Loss= 6.1374
+Step 3980000, Average Loss= 6.1591
+Step 3990000, Average Loss= 6.1897
+Step 4000000, Average Loss= 5.9729
+Evaluation...
+"at&t" nearest neighbors: acquisition, communications, corporation, merger, inc, company, plans, purchased,
+"verizon" nearest neighbors: entry, at&t, communications, investors, jack, contract, deal, receive,
+"qualcomm" nearest neighbors: economy, smaller, small, large, parts, growth, larger, put,
+"paypal" nearest neighbors: rule, resulted, negative, remains, self, concerns, rules, decided,
+"oracle" nearest neighbors: operating, platform, run, ibm, initial, microsoft, discontinued, ownership,
+"ibm" nearest neighbors: computer, platform, based, apple, developed, feature, microsoft, product,
+"ebay" nearest neighbors: figure, leaving, jobs, trading, worldwide, decided, agreed, ran,
+"twitter" nearest neighbors: facebook, website, users, clear, issue, advertising, stated, account,
+"cisco" nearest neighbors: purchase, account, prices, buy, reducing, controlled, expected, allowing,
+"adobe" nearest neighbors: version, versions, available, apple, platform, google, feature, mobile,
+"apple" nearest neighbors: microsoft, release, released, ibm, feature, google, introduced, launch,
+"microsoft" nearest neighbors: apple, platform, google, windows, ibm, released, software, release,
+"amazon" nearest neighbors: website, online, google, com, media, content, apple, sale,
+"google" nearest neighbors: website, users, online, microsoft, platform, apple, software, content,
+"facebook" nearest neighbors: google, website, users, online, media, issue, content, apple,
+Step 4010000, Average Loss= 6.0738
+Step 4020000, Average Loss= 6.0949
+Step 4030000, Average Loss= 6.1351
+Step 4040000, Average Loss= 6.1164
+Step 4050000, Average Loss= 6.0315
+Step 4060000, Average Loss= 6.0940
+Step 4070000, Average Loss= 6.0604
+Step 4080000, Average Loss= 6.0668
+Step 4090000, Average Loss= 5.8430
+Step 4100000, Average Loss= 6.0200
+Step 4110000, Average Loss= 6.0679
+Step 4120000, Average Loss= 6.1309
+Step 4130000, Average Loss= 6.1184
+Step 4140000, Average Loss= 6.1345
+Step 4150000, Average Loss= 6.0869
+Step 4160000, Average Loss= 6.1789
+Step 4170000, Average Loss= 6.0747
+Step 4180000, Average Loss= 6.2069
+Step 4190000, Average Loss= 6.0315
+Step 4200000, Average Loss= 6.0679
+Evaluation...
+"at&t" nearest neighbors: acquisition, communications, inc, merger, company, corporation, bell, purchased,
+"verizon" nearest neighbors: entry, at&t, communications, investors, deal, jack, contract, receive,
+"qualcomm" nearest neighbors: economy, large, smaller, parts, small, size, prices, supply,
+"paypal" nearest neighbors: negative, resulted, rule, remains, self, rules, decided, concerns,
+"oracle" nearest neighbors: operating, platform, ibm, microsoft, run, discontinued, software, ownership,
+"ibm" nearest neighbors: platform, apple, computer, software, microsoft, pc, features, feature,
+"ebay" nearest neighbors: figure, leaving, jobs, trading, decided, major, owners, zero,
+"twitter" nearest neighbors: facebook, website, advertising, stated, users, clear, google, campaign,
+"cisco" nearest neighbors: purchase, buy, account, prices, reducing, existing, allowing, customer,
+"adobe" nearest neighbors: apple, versions, version, platform, available, introduced, models, feature,
+"apple" nearest neighbors: release, microsoft, ibm, platform, feature, versions, google, released,
+"microsoft" nearest neighbors: apple, platform, google, windows, ibm, software, release, versions,
+"amazon" nearest neighbors: website, online, google, com, media, content, advertising, sale,
+"google" nearest neighbors: website, microsoft, online, users, platform, apple, software, web,
+"facebook" nearest neighbors: google, website, users, online, media, issue, content, advertising,
+Step 4210000, Average Loss= 6.0620
+Step 4220000, Average Loss= 5.8394
+Step 4230000, Average Loss= 6.1199
+Step 4240000, Average Loss= 6.1137
+Step 4250000, Average Loss= 6.0341
+Step 4260000, Average Loss= 4.8870
+Step 4270000, Average Loss= 5.9588
+Step 4280000, Average Loss= 6.1165
+Step 4290000, Average Loss= 6.0733
+Step 4300000, Average Loss= 5.5779
+Step 4310000, Average Loss= 5.8600
+Step 4320000, Average Loss= 6.1756
+Step 4330000, Average Loss= 6.1604
+Step 4340000, Average Loss= 6.0346
+Step 4350000, Average Loss= 5.8641
+Step 4360000, Average Loss= 5.8555
+Step 4370000, Average Loss= 5.9190
+Step 4380000, Average Loss= 5.9342
+Step 4390000, Average Loss= 5.8813
+Step 4400000, Average Loss= 5.8523
+Evaluation...
+"at&t" nearest neighbors: communications, acquisition, corporation, inc, acquired, merger, company, purchased,
+"verizon" nearest neighbors: entry, at&t, communications, wireless, deal, investors, contract, jack,
+"qualcomm" nearest neighbors: economy, large, small, heavy, parts, supply, smaller, size,
+"paypal" nearest neighbors: negative, rule, self, rules, resulted, regulations, structure, concerns,
+"oracle" nearest neighbors: operating, platform, ibm, microsoft, discontinued, software, package, offered,
+"ibm" nearest neighbors: computer, apple, platform, software, microsoft, pc, developed, version,
+"ebay" nearest neighbors: figure, leaving, jobs, trading, attempt, owners, zero, agreed,
+"twitter" nearest neighbors: facebook, website, users, google, issue, stated, advertising, supported,
+"cisco" nearest neighbors: purchase, buy, account, prices, customer, existing, price, reducing,
+"adobe" nearest neighbors: version, apple, platform, versions, introduced, available, application, google,
+"apple" nearest neighbors: microsoft, release, version, ibm, platform, introduced, versions, released,
+"microsoft" nearest neighbors: apple, platform, google, ibm, windows, software, version, release,
+"amazon" nearest neighbors: website, google, online, com, content, advertising, media, books,
+"google" nearest neighbors: website, microsoft, online, users, platform, facebook, apple, software,
+"facebook" nearest neighbors: google, website, users, online, content, media, issue, advertising,
+Step 4410000, Average Loss= 5.9213
+Step 4420000, Average Loss= 6.0672
+Step 4430000, Average Loss= 6.1217
+Step 4440000, Average Loss= 5.9662
+Step 4450000, Average Loss= 6.0297
+Step 4460000, Average Loss= 6.0047
+Step 4470000, Average Loss= 5.9664
+Step 4480000, Average Loss= 6.0478
+Step 4490000, Average Loss= 6.0615
+Step 4500000, Average Loss= 6.0004
+Step 4510000, Average Loss= 5.9663
+Step 4520000, Average Loss= 6.0140
+Step 4530000, Average Loss= 5.8346
+Step 4540000, Average Loss= 6.0590
+Step 4550000, Average Loss= 5.9859
+Step 4560000, Average Loss= 5.9680
+Step 4570000, Average Loss= 5.6892
+Step 4580000, Average Loss= 5.9194
+Step 4590000, Average Loss= 5.9863
+Step 4600000, Average Loss= 5.8938
+Evaluation...
+"at&t" nearest neighbors: communications, inc, acquisition, corporation, acquired, company, merger, bell,
+"verizon" nearest neighbors: entry, at&t, communications, wireless, deal, contract, agreement, attempted,
+"qualcomm" nearest neighbors: economy, larger, smaller, production, product, supply, lower, parts,
+"paypal" nearest neighbors: rule, negative, structure, self, regulations, rules, behavior, resulted,
+"oracle" nearest neighbors: operating, platform, software, microsoft, ibm, discontinued, google, windows,
+"ibm" nearest neighbors: computer, apple, platform, software, pc, microsoft, computers, hardware,
+"ebay" nearest neighbors: leaving, jobs, figure, trading, attempt, owners, zero, would,
+"twitter" nearest neighbors: facebook, website, issue, stated, google, advertising, media, users,
+"cisco" nearest neighbors: purchase, buy, account, existing, internet, customer, distribution, prices,
+"adobe" nearest neighbors: version, versions, apple, introduced, release, platform, available, released,
+"apple" nearest neighbors: release, microsoft, ibm, released, introduced, google, feature, version,
+"microsoft" nearest neighbors: apple, platform, google, windows, ibm, software, mobile, release,
+"amazon" nearest neighbors: website, online, google, com, media, advertising, content, internet,
+"google" nearest neighbors: website, microsoft, online, users, platform, apple, software, facebook,
+"facebook" nearest neighbors: google, website, users, media, online, issue, content, advertising,
+Step 4610000, Average Loss= 5.8816
+Step 4620000, Average Loss= 5.9243
+Step 4630000, Average Loss= 6.0526
+Step 4640000, Average Loss= 5.9158
+Step 4650000, Average Loss= 5.8767
+Step 4660000, Average Loss= 5.9784
+Step 4670000, Average Loss= 5.8742
+Step 4680000, Average Loss= 5.8922
+Step 4690000, Average Loss= 6.0278
+Step 4700000, Average Loss= 5.6107
+Step 4710000, Average Loss= 5.6634
+Step 4720000, Average Loss= 5.6174
+Step 4730000, Average Loss= 5.9155
+Step 4740000, Average Loss= 5.9562
+Step 4750000, Average Loss= 6.0098
+Step 4760000, Average Loss= 5.7661
+Step 4770000, Average Loss= 5.9935
+Step 4780000, Average Loss= 6.0263
+Step 4790000, Average Loss= 5.9542
+Step 4800000, Average Loss= 5.9112
+Evaluation...
+"at&t" nearest neighbors: communications, inc, acquisition, company, corporation, merger, acquired, purchased,
+"verizon" nearest neighbors: entry, at&t, communications, wireless, discovery, attempted, deal, contract,
+"qualcomm" nearest neighbors: economy, large, parts, larger, smaller, lower, car, supply,
+"paypal" nearest neighbors: rule, negative, rules, self, behavior, regulations, structure, basis,
+"oracle" nearest neighbors: operating, platform, microsoft, ibm, software, discontinued, google, run,
+"ibm" nearest neighbors: computer, platform, apple, pc, software, microsoft, based, support,
+"ebay" nearest neighbors: leaving, jobs, attempt, figure, trading, decided, worldwide, agreed,
+"twitter" nearest neighbors: facebook, website, issue, advertising, google, users, media, stated,
+"cisco" nearest neighbors: buy, purchase, account, customer, existing, price, prices, distribution,
+"adobe" nearest neighbors: version, versions, apple, available, platform, release, google, introduced,
+"apple" nearest neighbors: microsoft, release, ibm, google, released, introduced, platform, feature,
+"microsoft" nearest neighbors: apple, platform, google, ibm, windows, pc, software, release,
+"amazon" nearest neighbors: online, website, google, com, content, internet, advertising, media,
+"google" nearest neighbors: website, online, users, platform, microsoft, apple, facebook, software,
+"facebook" nearest neighbors: website, google, users, online, media, issue, content, advertising,
+Step 4810000, Average Loss= 5.8927
+Step 4820000, Average Loss= 5.8485
+Step 4830000, Average Loss= 5.9318
+Step 4840000, Average Loss= 6.0696
+Step 4850000, Average Loss= 5.9311
+Step 4860000, Average Loss= 6.0207
+Step 4870000, Average Loss= 5.9062
+Step 4880000, Average Loss= 5.7617
+Step 4890000, Average Loss= 5.8220
+Step 4900000, Average Loss= 5.9173
+Step 4910000, Average Loss= 5.9023
+Step 4920000, Average Loss= 5.9412
+Step 4930000, Average Loss= 5.8207
+Step 4940000, Average Loss= 5.8888
+Step 4950000, Average Loss= 5.9478
+Step 4960000, Average Loss= 5.7371
+Step 4970000, Average Loss= 5.7839
+Step 4980000, Average Loss= 5.8074
+Step 4990000, Average Loss= 5.8086
+Step 5000000, Average Loss= 5.8326
+Evaluation...
+"at&t" nearest neighbors: acquisition, communications, corporation, inc, company, merger, acquired, purchased,
+"verizon" nearest neighbors: entry, at&t, communications, discovery, wireless, contract, attempted, deal,
+"qualcomm" nearest neighbors: economy, large, larger, fixed, smaller, lower, parts, advantage,
+"paypal" nearest neighbors: negative, self, rule, rules, behavior, regulations, basis, structure,
+"oracle" nearest neighbors: operating, ibm, platform, microsoft, software, limited, run, discontinued,
+"ibm" nearest neighbors: platform, computer, pc, software, apple, based, microsoft, computers,
+"ebay" nearest neighbors: leaving, jobs, agreed, trading, attempt, return, travel, decided,
+"twitter" nearest neighbors: facebook, website, google, advertising, online, issue, stated, users,
+"cisco" nearest neighbors: purchase, buy, account, customer, prices, customers, would, distribution,
+"adobe" nearest neighbors: versions, apple, version, available, release, introduced, platform, google,
+"apple" nearest neighbors: microsoft, release, introduced, released, ibm, version, versions, pc,
+"microsoft" nearest neighbors: apple, google, platform, ibm, windows, software, release, released,
+"amazon" nearest neighbors: website, online, google, com, media, advertising, content, available,
+"google" nearest neighbors: website, microsoft, online, users, facebook, platform, software, web,
+"facebook" nearest neighbors: website, google, users, online, issue, media, content, advertising,
+Embeddings saved.

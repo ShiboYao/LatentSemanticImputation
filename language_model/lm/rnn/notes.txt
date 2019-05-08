@@ -1,0 +1,8 @@
+embedding       max_epoch   max_max_epoch
+no embedding    3           6 
+google          2           5
+google+aff      2           5
+self            2           5
+self+google     2           5
+self+aff        2           5(barely improve over self)
+google+self     2           5
