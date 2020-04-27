@@ -24,9 +24,6 @@ If you utilize the idea and/or the code, please cite our paper:
 
 
 ```
-
-
-
 @inproceedings{10.1145/3292500.3330926,
 	author = {Yao, Shibo and Yu, Dantong and Xiao, Keli},
 	title = {Enhancing Domain Word Embedding via Latent Semantic Imputation},
@@ -43,7 +40,6 @@ If you utilize the idea and/or the code, please cite our paper:
 	location = {Anchorage, AK, USA},
 	series = {KDD ’19}
 }
- 
 ```
 
 Contact
